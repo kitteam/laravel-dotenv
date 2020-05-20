@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Santutu\LaravelDotEnv\Commands;
+namespace Kitteam\LaravelDotEnv\Commands;
 
 
 use Illuminate\Console\Command;
-use Santutu\LaravelDotEnv\DotEnv;
+use Kitteam\LaravelDotEnv\DotEnv;
 
 class GetDotEnvCommand extends Command
 {

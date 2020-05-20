@@ -1,6 +1,6 @@
 <?php
 
-namespace Santutu\LaravelDotEnv;
+namespace Kitteam\LaravelDotEnv;
 
 class Facade extends \Illuminate\Support\Facades\Facade
 {

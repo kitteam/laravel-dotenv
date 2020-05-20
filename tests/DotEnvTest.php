@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Santutu\LaravelDotEnv\Tests;
+namespace Kitteam\LaravelDotEnv\Tests;
 
 
 use Illuminate\Support\Facades\Artisan;
-use Santutu\LaravelDotEnv\DotEnv;
-use Santutu\LaravelDotEnv\Facade;
-use Santutu\LaravelDotEnv\ServiceProvider;
+use Kitteam\LaravelDotEnv\DotEnv;
+use Kitteam\LaravelDotEnv\Facade;
+use Kitteam\LaravelDotEnv\ServiceProvider;
 use Symfony\Component\Console\Output\ConsoleOutput;
 use Webmozart\PathUtil\Path;
 

@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-composer require santutu/laravel-dotenv
+composer require kitteam/laravel-dotenv
 ```
 
 ## Usage In Code

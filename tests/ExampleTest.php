@@ -1,6 +1,6 @@
 <?php
 
-namespace Santutu\LaravelDotEnv\Tests;
+namespace Kitteam\LaravelDotEnv\Tests;
 
 use PHPUnit\Framework\TestCase;
 

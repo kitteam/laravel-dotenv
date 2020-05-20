@@ -1,6 +1,6 @@
 <?php
 
-namespace Santutu\LaravelDotEnv;
+namespace Kitteam\LaravelDotEnv;
 
 use Webmozart\PathUtil\Path;
 

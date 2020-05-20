@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Santutu\LaravelDotEnv\Commands;
+namespace Kitteam\LaravelDotEnv\Commands;
 
 
 use Illuminate\Console\Command;
 use InvalidArgumentException;
-use Santutu\LaravelDotEnv\DotEnv;
+use Kitteam\LaravelDotEnv\DotEnv;
 
 class SetDotEnvCommand extends Command
 {

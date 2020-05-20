@@ -1,5 +1,5 @@
 {
-  "name": "santutu/laravel-dotenv",
+  "name": "kitteam/laravel-dotenv",
   "description": "set or add key value in .env file",
   "license": "MIT",
   "keywords": [
@@ -18,7 +18,7 @@
   "require": {
     "php": ">=7.2",
     "ext-json": "*",
-    "laravel/framework": "^5.5|^6",
+    "laravel/framework": "^5.5|^6|^7",
     "webmozart/path-util": "^2.3"
   },
   "require-dev": {
@@ -27,12 +27,12 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Santutu\\LaravelDotEnv\\Tests\\": "tests"
+      "Kitteam\\LaravelDotEnv\\Tests\\": "tests"
     }
   },
   "autoload": {
     "psr-4": {
-      "Santutu\\LaravelDotEnv\\": "src"
+      "Kitteam\\LaravelDotEnv\\": "src"
     }
   },
   "scripts": {
@@ -41,10 +41,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Santutu\\LaravelDotEnv\\ServiceProvider"
+        "Kitteam\\LaravelDotEnv\\ServiceProvider"
       ],
       "aliases": {
-        "DotEnv": "Santutu\\LaravelDotEnv\\Facade"
+        "DotEnv": "Kitteam\\LaravelDotEnv\\Facade"
       }
     }
   }

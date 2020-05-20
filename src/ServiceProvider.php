@@ -1,11 +1,11 @@
 <?php
 
-namespace Santutu\LaravelDotEnv;
+namespace Kitteam\LaravelDotEnv;
 
-use Santutu\LaravelDotEnv\Commands\CopyDotEnvCommand;
-use Santutu\LaravelDotEnv\Commands\DeleteDotEnvCommand;
-use Santutu\LaravelDotEnv\Commands\GetDotEnvCommand;
-use Santutu\LaravelDotEnv\Commands\SetDotEnvCommand;
+use Kitteam\LaravelDotEnv\Commands\CopyDotEnvCommand;
+use Kitteam\LaravelDotEnv\Commands\DeleteDotEnvCommand;
+use Kitteam\LaravelDotEnv\Commands\GetDotEnvCommand;
+use Kitteam\LaravelDotEnv\Commands\SetDotEnvCommand;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
